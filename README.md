@@ -1,6 +1,4 @@
-# NRK Rip
-
-[![Build Status](https://travis-ci.org/nrk-rip/nrk-rip.svg?branch=master)](https://travis-ci.org/nrk-rip/nrk-rip)
+# NRK Rip  [![Build Status](https://travis-ci.org/nrk-rip/nrk-rip.svg?branch=master)](https://travis-ci.org/nrk-rip/nrk-rip)
 
 ## Dependencies
 
