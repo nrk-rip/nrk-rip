@@ -1,10 +1,10 @@
 language: python
 python:
   # We don't actually use the Travis Python, but this keeps it organized.
-#  - "2.6"
-#  - "2.7"
-#  - "3.3"
-  - "3.6"
+  - "2.6"
+  - "2.7"
+  - "3.3"
+  - "3.4"
 install:
   #- sudo apt-get update
   # We do this conditionally because it saves us some downloading if the
@@ -25,7 +25,6 @@ install:
   # Initialize and activate nrk-rip Conda environment
   - conda env create
   - source activate nrk-rip
-  #- python setup.py install
 
 script:
   - nosetests
