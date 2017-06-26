@@ -75,6 +75,9 @@ class TestTTML2SRT(unittest.TestCase):
     def test_ttml2srt_text(self):
         self.assertIn('<font color="yellow">No indeed! What a beautiful fact!</font>', self.srt_doc)
 
+    def test_failing(self):
+        self.fail("Force fail to test TravisCI")
+
 
 if __name__ == '__main__':
     unittest.main()
