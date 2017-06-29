@@ -76,7 +76,7 @@ def save_subtitle(metadata):
 
 
 def media_id_from_url(url):
-    match = re.match(".*/([A-Z\d]+?)/.*", url)
+    match = re.match(".*/([A-Za-z\d]+?)/.*", url)
     return match.group(1)
 
 
