@@ -100,7 +100,7 @@ def save_media(url, quality="high", verbose=False):
                                     title=metadata.get("title"),
                                     description=sanitize_metadata(metadata.get("description")))
     run_ffmpeg(cmd, verbose=verbose)
-    if os.path.exists(subtitle_path):
+    if subtitle_path and os.path.exists(subtitle_path):
         os.remove(subtitle_path)
 
 
